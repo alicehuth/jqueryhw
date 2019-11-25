@@ -42,13 +42,13 @@ for (let i = 0; i < imgs.length; i++) {
 
 	$(imgs[i]).mouseout(function() {
 		console.log("out");
-		$("#image").css("backgroundImage", "url('"+imgs[i].src+"')");
+		$("#image").css("backgroundImage", "url('')");
 		$("#image").text(msg);
 	})
 
 	$(imgs[i]).blur(function() {
 		console.log("blur");
-		$("#image").css("backgroundImage", "url('"+imgs[i].src+"')");
+		$("#image").css("backgroundImage", "url('')");
 		$("#image").text(msg);
 	})
 
